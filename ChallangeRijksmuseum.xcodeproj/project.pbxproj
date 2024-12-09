@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ECF33FE2D06E84B0071394C /* ChallangeRijksmuseumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF33FD2D06E84B0071394C /* ChallangeRijksmuseumApp.swift */; };
+		3ECF340E2D06E86D0071394C /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF340C2D06E86D0071394C /* Artwork.swift */; };
+		3ECF340F2D06E86D0071394C /* ImageObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF340D2D06E86D0071394C /* ImageObject.swift */; };
+		3ECF34152D06E8740071394C /* ArtworkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF34112D06E8740071394C /* ArtworkRow.swift */; };
+		3ECF34162D06E8740071394C /* FavoritesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF34122D06E8740071394C /* FavoritesManager.swift */; };
+		3ECF34172D06E8740071394C /* ArtworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF34132D06E8740071394C /* ArtworkDetailView.swift */; };
+		3ECF34182D06E8740071394C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF34142D06E8740071394C /* ContentView.swift */; };
+		3ECF341B2D06E87C0071394C /* ArtworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF341A2D06E87C0071394C /* ArtworkListView.swift */; };
+		3ECF341F2D06E8830071394C /* RijksmuseumError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF341D2D06E8830071394C /* RijksmuseumError.swift */; };
+		3ECF34202D06E8830071394C /* RijksmuseumService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF341E2D06E8830071394C /* RijksmuseumService.swift */; };
+		3ECF34242D06E89C0071394C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF34222D06E89C0071394C /* Assets.xcassets */; };
+		3ECF34252D06E89C0071394C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF34232D06E89C0071394C /* Config.swift */; };
+		3ECF34282D06E8AD0071394C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF34272D06E8AD0071394C /* Preview Assets.xcassets */; };
+		3ECF342B2D06E8B60071394C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECF342A2D06E8B60071394C /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ECF33FA2D06E84B0071394C /* ChallangeRijksmuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallangeRijksmuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ECF33FD2D06E84B0071394C /* ChallangeRijksmuseumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallangeRijksmuseumApp.swift; sourceTree = "<group>"; };
+		3ECF340C2D06E86D0071394C /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		3ECF340D2D06E86D0071394C /* ImageObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageObject.swift; sourceTree = "<group>"; };
+		3ECF34112D06E8740071394C /* ArtworkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkRow.swift; sourceTree = "<group>"; };
+		3ECF34122D06E8740071394C /* FavoritesManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesManager.swift; sourceTree = "<group>"; };
+		3ECF34132D06E8740071394C /* ArtworkDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkDetailView.swift; sourceTree = "<group>"; };
+		3ECF34142D06E8740071394C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3ECF341A2D06E87C0071394C /* ArtworkListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkListView.swift; sourceTree = "<group>"; };
+		3ECF341D2D06E8830071394C /* RijksmuseumError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RijksmuseumError.swift; sourceTree = "<group>"; };
+		3ECF341E2D06E8830071394C /* RijksmuseumService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RijksmuseumService.swift; sourceTree = "<group>"; };
+		3ECF34222D06E89C0071394C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ECF34232D06E89C0071394C /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		3ECF34272D06E8AD0071394C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ECF342A2D06E8B60071394C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ECF33F72D06E84B0071394C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ECF33F12D06E84B0071394C = {
+			isa = PBXGroup;
+			children = (
+				3ECF33FC2D06E84B0071394C /* ChallangeRijksmuseum */,
+				3ECF33FB2D06E84B0071394C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ECF33FB2D06E84B0071394C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF33FA2D06E84B0071394C /* ChallangeRijksmuseum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ECF33FC2D06E84B0071394C /* ChallangeRijksmuseum */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF33FD2D06E84B0071394C /* ChallangeRijksmuseumApp.swift */,
+				3ECF340B2D06E86D0071394C /* Models */,
+				3ECF341C2D06E8830071394C /* Services */,
+				3ECF34102D06E8740071394C /* Views */,
+				3ECF34192D06E87C0071394C /* ViewModels */,
+				3ECF34212D06E89C0071394C /* Resources */,
+				3ECF34292D06E8B60071394C /* Preview Content */,
+			);
+			path = ChallangeRijksmuseum;
+			sourceTree = "<group>";
+		};
+		3ECF340B2D06E86D0071394C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF340C2D06E86D0071394C /* Artwork.swift */,
+				3ECF340D2D06E86D0071394C /* ImageObject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3ECF34102D06E8740071394C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF34112D06E8740071394C /* ArtworkRow.swift */,
+				3ECF34122D06E8740071394C /* FavoritesManager.swift */,
+				3ECF34132D06E8740071394C /* ArtworkDetailView.swift */,
+				3ECF34142D06E8740071394C /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3ECF34192D06E87C0071394C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF341A2D06E87C0071394C /* ArtworkListView.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3ECF341C2D06E8830071394C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF341D2D06E8830071394C /* RijksmuseumError.swift */,
+				3ECF341E2D06E8830071394C /* RijksmuseumService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3ECF34212D06E89C0071394C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF34262D06E8AD0071394C /* Preview Content */,
+				3ECF34222D06E89C0071394C /* Assets.xcassets */,
+				3ECF34232D06E89C0071394C /* Config.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3ECF34262D06E8AD0071394C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF34272D06E8AD0071394C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ECF34292D06E8B60071394C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ECF342A2D06E8B60071394C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ECF33F92D06E84B0071394C /* ChallangeRijksmuseum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ECF34082D06E84C0071394C /* Build configuration list for PBXNativeTarget "ChallangeRijksmuseum" */;
+			buildPhases = (
+				3ECF33F62D06E84B0071394C /* Sources */,
+				3ECF33F72D06E84B0071394C /* Frameworks */,
+				3ECF33F82D06E84B0071394C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallangeRijksmuseum;
+			productName = ChallangeRijksmuseum;
+			productReference = 3ECF33FA2D06E84B0071394C /* ChallangeRijksmuseum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ECF33F22D06E84B0071394C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3ECF33F92D06E84B0071394C = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 3ECF33F52D06E84B0071394C /* Build configuration list for PBXProject "ChallangeRijksmuseum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ECF33F12D06E84B0071394C;
+			productRefGroup = 3ECF33FB2D06E84B0071394C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECF33F92D06E84B0071394C /* ChallangeRijksmuseum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ECF33F82D06E84B0071394C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF342B2D06E8B60071394C /* Preview Assets.xcassets in Resources */,
+				3ECF34242D06E89C0071394C /* Assets.xcassets in Resources */,
+				3ECF34282D06E8AD0071394C /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ECF33F62D06E84B0071394C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ECF341F2D06E8830071394C /* RijksmuseumError.swift in Sources */,
+				3ECF34162D06E8740071394C /* FavoritesManager.swift in Sources */,
+				3ECF34202D06E8830071394C /* RijksmuseumService.swift in Sources */,
+				3ECF34182D06E8740071394C /* ContentView.swift in Sources */,
+				3ECF34252D06E89C0071394C /* Config.swift in Sources */,
+				3ECF340E2D06E86D0071394C /* Artwork.swift in Sources */,
+				3ECF340F2D06E86D0071394C /* ImageObject.swift in Sources */,
+				3ECF34172D06E8740071394C /* ArtworkDetailView.swift in Sources */,
+				3ECF34152D06E8740071394C /* ArtworkRow.swift in Sources */,
+				3ECF33FE2D06E84B0071394C /* ChallangeRijksmuseumApp.swift in Sources */,
+				3ECF341B2D06E87C0071394C /* ArtworkListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3ECF34062D06E84C0071394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3ECF34072D06E84C0071394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ECF34092D06E84C0071394C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallangeRijksmuseum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.egenvall.ellie.ChallangeRijksmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ECF340A2D06E84C0071394C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChallangeRijksmuseum/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.egenvall.ellie.ChallangeRijksmuseum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ECF33F52D06E84B0071394C /* Build configuration list for PBXProject "ChallangeRijksmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF34062D06E84C0071394C /* Debug */,
+				3ECF34072D06E84C0071394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ECF34082D06E84C0071394C /* Build configuration list for PBXNativeTarget "ChallangeRijksmuseum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ECF34092D06E84C0071394C /* Debug */,
+				3ECF340A2D06E84C0071394C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ECF33F22D06E84B0071394C /* Project object */;
+}
